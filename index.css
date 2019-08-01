@@ -89,17 +89,17 @@ img {
 
 /*parralax edit starts here*/
 .parralax-1 {
-    background:url("https://live.staticflickr.com/65535/48197595376_c079497263_b.jpg");
-    background-attachment: fixed;
-    background-attachment: fixed;
+  background:url("https://live.staticflickr.com/65535/48197595376_c079497263_b.jpg");
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
 }
 .parralax-inner {
-    padding-top:300px;
-    padding-bottom:400px;
+ padding-top:300px;
+ padding-bottom: 400px;
+
 }
 
 .parralax-2 {
@@ -334,21 +334,75 @@ text-decoration: underline;
  text-align: center;
 }
 
-
-
-
-
-
-@media screen and (max-width:768px) {
-	.parralax-1 {
-   background-size: contain;
+@media screen and (max-width: 991px) {
+ .parralax-1 {
+   background-size: 991px;
+   width:991px;
+   height:300px;
   }
 
     .parralax-inner {
     padding-top:120px;
     padding-bottom:120px;
+   
+}
+    .one-half {
+        width:100%;
+        margin:0 0 3px 0;
+    }
+    h1 {
+        font-size:125%;
+        padding-top: 3%;
+        margin:0;
+    }
+    .pic-1, .sidepic2, .googlemap {
     width:100%;
-    height:100%;
+    margin:0;
+    padding:0;
+    }
+    img {
+        width:100%;
+    }
+    .faq-section {
+        width:100%;
+        margin:2px;
+        padding-top:2%;
+        height:20%;
+    }
+    
+    h2 {
+      height:40px;
+    }
+    label {
+      height:40px;
+    }
+    
+    .navbar-bottom {
+      display:inline-block;
+      
+    }
+    
+    .navbar-bottom a {
+      width:100%;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:768px) {
+ 
+  .parralax-1 {
+   background-size: 768px;
+   width:768px;
+   height:300px;
+  }
+
+    .parralax-inner {
+    padding-top:120px;
+    padding-bottom:120px;
+   
 }
     .one-half {
         width:100%;
@@ -391,14 +445,17 @@ text-decoration: underline;
     }
 }
 
-@media screen and (max-width:500px) {
-	.parralax-1 {
-   background-size: contain;
+@media screen and (max-width:479px) {
+ 
+   .parralax-1 {
+   background-size: 479px;
+   width:479px;
+   height:300px;
   }
 
     .parralax-inner {
-    padding-top:120px;
-    padding-bottom:120px;
+    padding-top:0px;
+    padding-bottom:0px;
     width:100%;
     height:100%;
 }
