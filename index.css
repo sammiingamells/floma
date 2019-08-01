@@ -340,6 +340,9 @@ text-decoration: underline;
 
 
 @media screen and (max-width:768px) {
+	.parralax-1 {
+   background-size: auto;
+  }
 
     .parralax-inner {
     padding-top:120px;
@@ -389,6 +392,9 @@ text-decoration: underline;
 }
 
 @media screen and (max-width:500px) {
+	.parralax-1 {
+   background-size: auto;
+  }
 
     .parralax-inner {
     padding-top:120px;
