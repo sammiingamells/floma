@@ -339,6 +339,9 @@ text-decoration: underline;
    background-size: 991px;
    width:991px;
    height:300px;
+   background-position: center;
+  background-repeat: no-repeat;
+  
   }
 
     .parralax-inner {
@@ -397,11 +400,13 @@ text-decoration: underline;
    background-size: 768px;
    width:768px;
    height:300px;
+  background-position: center;
+  background-repeat: no-repeat;
   }
 
     .parralax-inner {
-    padding-top:50px;
-    padding-bottom:50px;
+    padding-top:120px;
+    padding-bottom:120px;
    
 }
     .one-half {
@@ -451,13 +456,14 @@ text-decoration: underline;
    background-size: 479px;
    width:479px;
    height:300px;
+	   background-position: center;
+  background-repeat: no-repeat;
   }
 
     .parralax-inner {
     padding-top:50px;
     padding-bottom:50px;
-    width:100%;
-    height:100%;
+    
 }
     .one-half {
         width:100%;
