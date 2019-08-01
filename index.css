@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap'); /*main text font */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap'); /*header font*/
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin:0;
+    border:0;
+    padding:0;
+    width:100%;
+    overflow-x:hidden;
+}
+
+body {
+    background-color: white;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    position:relative;
+    width:100%;
+   
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 225%;
+    color: rgb(112,65,126);
+    text-decoration: underline;
+    letter-spacing: 2px;
+    padding-top:10%;
+    font-weight: bolder;
+}
+p {
+    padding: 5%;
+    font-family:'Montserrat', sans-serif;
+    color:rgb(112,65,126);
+    text-align: justify;
+    
+}
+
+#massagebyflobullet1 {
+    padding: 3%;
+    font-family:'Montserrat', sans-serif;
+    color:rgb(112,65,126);
+    text-align: left;
+    
+}
+img {
+    width:100%;
+    max-width:100%
+    height:auto;
+}
+
+#banner-wrapper {
+    max-width:100%;
+    margin: 0 auto;
+    background-color: white;
+ 
+}
+
+#banner-wrapper4 {
+ max-width:100%;
+    margin: 0 auto;
+    background-color: white;
+    padding-bottom:200px;
+}
+
+.one-half {
+    width: 44%;
+    float: left;
+    margin: 4% 0 4% 4%;
+    text-align:center;
+ 
+}
+
+.pic-1, .sidepic2, .googlemap {
+    width:40%;
+    float: right;
+    margin: 4%;
+    background-color: white;
+
+
+}
+.clear-fix {
+    clear:both;
+}
+
+/*parralax edit starts here*/
+.parralax-1 {
+    background:url("https://live.staticflickr.com/65535/48197595376_c079497263_b.jpg");
+    background-attachment: fixed;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parralax-inner {
+    padding-top:300px;
+    padding-bottom:400px;
+}
+
+.parralax-2 {
+    background:url("https://live.staticflickr.com/65535/48197595376_c079497263_b.jpg");
+    background-attachment: fixed;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parralax-inner2 {
+    padding-top:150px;
+    padding-bottom:150px;
+}
+
+.parralax-3 {
+    background:url("https://live.staticflickr.com/65535/48197595376_c079497263_b.jpg");
+    background-attachment: fixed;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;   
+}
+.parralax-inner3 {
+    padding-top:300px;
+    padding-bottom:300px;
+}
+
+#facebook {
+  width:24px;
+  height:24px;
+}
+
+#instagram {
+  width:24px;
+  height:24px;
+}
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar-bottom {
+ display: inline-block;
+  background-color: white;
+  overflow: hidden;
+  height:40px;
+  bottom: 0;
+  width: 100%;
+  padding-bottom:0;
+  margin: 0;
+}
+
+/* Style the links inside the navigation bar */
+.navbar-bottom a {
+  float: left;
+  display: inline-block;
+  width:20%;
+  color: black;
+  text-align: left;
+  padding-top:10px;
+  padding-left:0;
+  padding-right: 0;
+  padding-bottom: 0;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.navbar-bottom a:hover {
+text-decoration: underline;
+}
+
+
+/* Hide the link that should open and close the navbar on small screens */
+.navbar-bottom .icon {
+  display: none;
+}
+
+#footer {
+  margin:0;
+  font-size: 18px;
+  
+}
+
+#facebook1 {
+  width:24px;
+  height:24px;
+  text-align: left;
+  float: left;
+ 
+}
+
+#instagram1 {
+  width: 24px;
+  height:24px;
+  text-align:left;
+  float:left;
+}
+
+
+
+
+
+
+
+
+/*faq section 
+.faq-section{
+    margin: 5% 0;
+    position: relative;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    padding-bottom: 10px;
+
+}
+/*Hide the paragraphs
+.faq-section p{
+    display: none;
+    overflow-y: hidden;
+	max-height: 500px;
+    text-align: center;/* approximate max height */
+
+}   
+
+/*Hide the checkboxes 
+.faq-section input{
+    position: inherit;
+    z-index: 0;
+    cursor: pointer;
+    opacity: 0;         
+    display: none\9; /* IE8 and below 
+    margin: 0;          
+    width: 100%;
+    height: 36px;
+    overflow-y: hidden;
+	max-height: 500px; /* approximate max height 
+    text-align: center;
+	transition-property: all;
+	transition-duration: .5s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+
+/*If the checkbox is checked, show all paragraphs
+.faq-section input[type=checkbox]:checked~p{
+    display: block;
+    color: #444;
+    font-size: 1em;
+    /* restore clipping defaults 
+    text-overflow: clip; 
+    white-space: normal;
+    overflow: hidden;
+    font-size: 20px;
+    text-align: center;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+   color:rgb(112,65,126);
+   overflow-y: hidden;
+	max-height: 500px; /* approximate max height 
+
+	transition-property: all;
+	transition-duration: 5s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+/*Style the label
+.faq-section label{
+    font-size: 1.2em;
+    text-decoration: underline;
+    font-size: 20px;
+   font-family: 'Montserrat', sans-serif;
+   color:rgb(112,65,126);
+    
+    display: block;
+    position: relative;
+        height: 20px;
+    font-weight: bold;
+    
+  transition-delay: 10s;
+}
+
+/*Remove text selection when toggle-ing
+.faq-section label::selection{
+    background: white;
+}
+
+.faq-section label:hover{
+    background: white;
+    
+}*/
+
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: white;
+  color:rgb(112,65,126);
+  cursor: pointer;
+  padding-top: 18%;
+  badding-bottom:18%;
+  width: 50%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+#q1, #q2, #q3, #q4, #q5 {
+ font-size:30px;
+ text-align: center;
+ padding-top:1%;
+ padding-bottom: 1%;
+ font-family: 'Amatic SC', cursive;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: white;
+  color:rgb(112,65,126);
+  text-decoration: underline;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  color: rgb(112,65,126);
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.panel p {
+ font-size: 20px;
+ text-align: center;
+}
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .parralax-inner {
+    padding-top:120px;
+    padding-bottom:120px;
+    width:100%;
+    height:100%;
+}
+    .one-half {
+        width:100%;
+        margin:0 0 3px 0;
+    }
+    h1 {
+        font-size:125%;
+        padding-top: 3%;
+        margin:0;
+    }
+    .pic-1, .sidepic2, .googlemap {
+    width:100%;
+    margin:0;
+    padding:0;
+    }
+    img {
+        width:100%;
+    }
+    .faq-section {
+        width:100%;
+        margin:2px;
+        padding-top:2%;
+        height:20%;
+    }
+    
+    h2 {
+      height:40px;
+    }
+    label {
+      height:40px;
+    }
+    
+    .navbar-bottom {
+      display:inline-block;
+      
+    }
+    
+    .navbar-bottom a {
+      width:100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .parralax-inner {
+    padding-top:120px;
+    padding-bottom:120px;
+    width:100%;
+    height:100%;
+}
+    .one-half {
+        width:100%;
+        margin:0 0 3px 0;
+    }
+    h1 {
+        font-size:125%;
+        padding-top: 3%;
+        margin:0;
+    }
+    .pic-1, .sidepic2, .googlemap {
+    width:100%;
+    margin:0;
+    padding:0;
+    }
+    img {
+        width:100%;
+    }
+    .faq-section {
+        width:100%;
+        margin:2px;
+        padding-top:2%;
+        height:20%;
+    }
+    
+    h2 {
+      height:40px;
+    }
+    label {
+      height:40px;
+    }
+    
+    .navbar-bottom {
+      display:inline-block;
+      
+    }
+    
+    .navbar-bottom a {
+      width:100%;
+    }
+}
+
